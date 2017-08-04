@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Akrobat"; 
+    src: url(Akrobat-Regular.woff);
+}
+body {
+	text-align: center;
+	margin: 0 auto;
+	background: url(logo.png) center 197px no-repeat;
+	color: #000000;
+	font-family: Akrobat;
+	font-weight: 300;
+}
+h1 {
+	margin: 499px auto 0 auto;
+	font-size: 49px;
+	
+}
+.fb {
+	display: block;
+	width: 94px;
+	height: 94px;
+	margin: 67px auto;
+	background: url(fb.png) center no-repeat;
+}
+.mail {
+	color: #000000;
+	text-decoration: none;
+	font-size: 58px;
+	margin: 0 auto;
+}
+.mail:hover{
+	border-bottom: 2px solid #fecb00;
+}
